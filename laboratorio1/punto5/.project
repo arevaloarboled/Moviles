@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>punto5</name>
-	<comment>Project punto5 created by Buildship.</comment>
+	<name>olakase</name>
+	<comment>Project olakase created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
@@ -22,7 +22,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1455746725735</id>
+			<id>1455745417614</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
@@ -31,7 +31,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1455746725769</id>
+			<id>1455745417617</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
