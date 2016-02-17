@@ -10,6 +10,7 @@ Permite elementos repetidos, generalmente ordenados. La busqueda es lenta pero l
 ##### Sets
 Sirve para acceder a una coleccion sin elementos repetidos que pueden estar desordenados.
 * Lenguajes formales basan sus especificaciones en conjuntos, si uno quisiera hacer un compilador o interprete, deberia usar esta estructura.
+
 ##### Maps
 Estructura de datos agrupados en clave => valor, la clave es unica y se emplea para acceder al valor, el acceso a los datos es rapido.
 * Crear facturas y usar los codigos de los productos para traer el precio y el nombre del producto.
