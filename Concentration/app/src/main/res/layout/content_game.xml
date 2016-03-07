@@ -32,6 +32,7 @@
             android:id="@+id/boton1"
             android:tag="1"
             android:onClick="play"
+            android:layout_margin="1dp"
             android:layout_row="0"
             android:layout_column="0" />
 
@@ -41,6 +42,7 @@
             android:id="@+id/boton2"
             android:tag="2"
             android:onClick="play"
+            android:layout_margin="1dp"
             android:layout_row="0"
             android:layout_column="1" />
 
@@ -50,6 +52,7 @@
             android:id="@+id/boton3"
             android:tag="3"
             android:onClick="play"
+            android:layout_margin="1dp"
             android:layout_row="0"
             android:layout_column="2" />
 
@@ -59,6 +62,7 @@
             android:id="@+id/boton4"
             android:tag="4"
             android:onClick="play"
+            android:layout_margin="1dp"
             android:layout_row="0"
             android:layout_column="3" />
 
@@ -68,6 +72,7 @@
             android:id="@+id/boton5"
             android:tag="5"
             android:onClick="play"
+            android:layout_margin="1dp"
             android:layout_row="1"
             android:layout_column="0" />
 
@@ -77,6 +82,7 @@
             android:id="@+id/boton6"
             android:tag="6"
             android:onClick="play"
+            android:layout_margin="1dp"
             android:layout_row="1"
             android:layout_column="1" />
 
@@ -86,6 +92,7 @@
             android:id="@+id/boton7"
             android:tag="7"
             android:onClick="play"
+            android:layout_margin="1dp"
             android:layout_row="1"
             android:layout_column="2" />
 
@@ -95,6 +102,7 @@
             android:id="@+id/boton8"
             android:tag="8"
             android:onClick="play"
+            android:layout_margin="1dp"
             android:layout_row="1"
             android:layout_column="3" />
 
@@ -104,6 +112,7 @@
             android:id="@+id/boton9"
             android:tag="9"
             android:onClick="play"
+            android:layout_margin="1dp"
             android:layout_row="2"
             android:layout_column="0" />
 
@@ -113,6 +122,7 @@
             android:id="@+id/boton10"
             android:tag="10"
             android:onClick="play"
+            android:layout_margin="1dp"
             android:layout_row="2"
             android:layout_column="1" />
 
@@ -122,6 +132,7 @@
             android:id="@+id/boton11"
             android:tag="11"
             android:onClick="play"
+            android:layout_margin="1dp"
             android:layout_row="2"
             android:layout_column="2" />
 
@@ -131,6 +142,7 @@
             android:id="@+id/boton12"
             android:tag="12"
             android:onClick="play"
+            android:layout_margin="1dp"
             android:layout_row="2"
             android:layout_column="3" />
 
@@ -140,6 +152,7 @@
             android:id="@+id/boton13"
             android:tag="13"
             android:onClick="play"
+            android:layout_margin="1dp"
             android:layout_row="3"
             android:layout_column="0" />
 
@@ -159,6 +172,7 @@
             android:layout_row="3"
             android:tag="15"
             android:onClick="play"
+            android:layout_margin="1dp"
             android:layout_column="2" />
 
         <Button
@@ -167,6 +181,7 @@
             android:id="@+id/boton16"
             android:tag="16"
             android:onClick="play"
+            android:layout_margin="1dp"
             android:layout_row="3"
             android:layout_column="3" />
     </GridLayout>

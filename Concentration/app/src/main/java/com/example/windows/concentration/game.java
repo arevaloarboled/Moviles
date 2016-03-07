@@ -45,6 +45,7 @@ public class game extends AppCompatActivity {
     }
 
     private void createboard(){
+        tipe_colors.clear();
         ArrayList<Integer> tipe= new ArrayList<Integer>(Arrays.asList(0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7));
         //tipe= (ArrayList<Integer>) Arrays.asList(0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7);
         //ok= (ArrayList<Boolean>) Arrays.asList(false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false);
