@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Concentrese</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game">Concentrese!</string>
+    <string name="title_activity_name">Nombres</string>
+    <string name="title_activity_score_board">Puntajes</string>
+    <string name="title_activity_about_me">Acerca de</string>
+    <string name="hecha">Aplicacion hecha por</string>
+    <string name="yo">Camilo Arevalo</string>
+    <string name="correo">arevaloarboled@hotmail.com</string>
+    <string name="Numero">Numero de jugadores</string>
+    <string name="p1">1 Jugador</string>
+    <string name="p2">2 Jugadores</string>
+    <string name="p3">3 Jugadores</string>
+    <string name="p4">4 Jugadores</string>
+    <string name="Continue">Continuar</string>
+    <string name="puntos">Puntaje</string>
+    <string name="New">Nuevo juego</string>
+    <string name="restart">Reiniciar</string>
+    <string name="exit">Salir</string>
+    <string name="bien">Bien!, vuelve a jugar</string>
+    <string name="mal">Fracaso!</string>
+    <string name="turno">turno: </string>
+    <string name="juega">: juega </string>
+    <string name="NombreT">Nombre jugador</string>
+    <string name="NombreH">Nombre</string>
+    <string name="exepcionN">Pon un nombre por favor :)</string>
+    <string name="ganador">El ganador de esta ronda es: </string>
+    <string name="empate">Empate!</string>
+
+
+
+</resources>
+
