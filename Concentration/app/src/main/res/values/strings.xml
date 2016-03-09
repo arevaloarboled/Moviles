@@ -24,7 +24,7 @@
     <string name="bien">Bien!, vuelve a jugar</string>
     <string name="mal">Fracaso!</string>
     <string name="turno">turno: </string>
-    <string name="juega">: juega </string>
+    <string name="juega">  juega: </string>
     <string name="NombreT">Nombre jugador</string>
     <string name="NombreH">Nombre</string>
     <string name="exepcionN">Pon un nombre por favor :)</string>

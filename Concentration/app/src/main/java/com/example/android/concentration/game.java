@@ -68,7 +68,7 @@ public class game extends Activity {
             score.add(0);
         }
         TextView tx= new TextView(this);
-        tx.setText(getResources().getString(R.string.turno)+Integer.toString(turno)+getResources().getString(R.string.juega)+name.names.get(0));
+        tx.setText(getResources().getString(R.string.turno)+" "+Integer.toString(turno)+" "+getResources().getString(R.string.juega)+name.names.get(0));
         tx.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.FILL_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
         tx.setId(MainActivity.players);
         linear.addView(tx);
@@ -107,7 +107,7 @@ public class game extends Activity {
                     ok.set(tmptag - 1, true);
                     ok.set(tag-1,true);
                     Toast.makeText(getApplicationContext(), getResources().getString(R.string.bien),
-                            Toast.LENGTH_LONG).show();
+                            Toast.LENGTH_SHORT).show();
                     TextView tx=(TextView)findViewById(turno%MainActivity.players);
                     tx.setText(name.names.get(turno%MainActivity.players)+" "+Integer.toString((score.get(turno%MainActivity.players))));
                     for (int i=0;i<ok.size();i++){
@@ -132,9 +132,9 @@ public class game extends Activity {
                     }, 1000);
                     turno++;
                     Toast.makeText(getApplicationContext(), getResources().getString(R.string.mal),
-                            Toast.LENGTH_LONG).show();
+                            Toast.LENGTH_SHORT).show();
                     TextView tx=(TextView)findViewById(MainActivity.players);
-                    tx.setText(getResources().getString(R.string.turno)+Integer.toString(turno)+getResources().getString(R.string.juega)+name.names.get(turno%MainActivity.players));
+                    tx.setText(getResources().getString(R.string.turno)+" "+Integer.toString(turno)+getResources().getString(R.string.juega)+" "+name.names.get(turno%MainActivity.players));
                 }
             }
         }

@@ -23,7 +23,7 @@
     <string name="bien">Good!, replayed</string>
     <string name="mal">Fail!</string>
     <string name="turno">Turn: </string>
-    <string name="juega">: play </string>
+    <string name="juega">  play: </string>
     <string name="NombreT">Player name</string>
     <string name="NombreH">Name</string>
     <string name="exepcionN">Put a name please :)</string>
