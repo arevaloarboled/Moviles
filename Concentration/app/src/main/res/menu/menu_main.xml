@@ -1,15 +1,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.windows.concentration.MainActivity">
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="About"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="New"
-        app:showAsAction="never" />
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/about" android:title="@string/title_activity_about_me"
+        android:orderInCategory="100" android:showAsAction="never"
+        android:onClick="about_mm"/>
+    <item android:id="@+id/exit" android:title="@string/exit"
+        android:orderInCategory="100" android:showAsAction="never" android:onClick="exitm"/>
 </menu>
