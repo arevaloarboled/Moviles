@@ -1,0 +1,13 @@
+C:\Users\Windows\Documents\Visual Studio 2015\Projects\Messages\Messages\bin\Release\Messages.exe.config
+C:\Users\Windows\Documents\Visual Studio 2015\Projects\Messages\Messages\bin\Release\Messages.exe
+C:\Users\Windows\Documents\Visual Studio 2015\Projects\Messages\Messages\bin\Release\Messages.pdb
+C:\Users\Windows\Documents\Visual Studio 2015\Projects\Messages\Messages\obj\Release\MainWindow.g.cs
+C:\Users\Windows\Documents\Visual Studio 2015\Projects\Messages\Messages\obj\Release\App.g.cs
+C:\Users\Windows\Documents\Visual Studio 2015\Projects\Messages\Messages\obj\Release\Messages_MarkupCompile.cache
+C:\Users\Windows\Documents\Visual Studio 2015\Projects\Messages\Messages\obj\Release\Messages_MarkupCompile.lref
+C:\Users\Windows\Documents\Visual Studio 2015\Projects\Messages\Messages\obj\Release\MainWindow.baml
+C:\Users\Windows\Documents\Visual Studio 2015\Projects\Messages\Messages\obj\Release\Messages.g.resources
+C:\Users\Windows\Documents\Visual Studio 2015\Projects\Messages\Messages\obj\Release\Messages.Properties.Resources.resources
+C:\Users\Windows\Documents\Visual Studio 2015\Projects\Messages\Messages\obj\Release\Messages.csproj.GenerateResource.Cache
+C:\Users\Windows\Documents\Visual Studio 2015\Projects\Messages\Messages\obj\Release\Messages.exe
+C:\Users\Windows\Documents\Visual Studio 2015\Projects\Messages\Messages\obj\Release\Messages.pdb
