@@ -50,3 +50,31 @@ C:\Users\android\Documents\Visual Studio 2015\Projects\Messages\Messages\obj\Deb
 C:\Users\android\Documents\Visual Studio 2015\Projects\Messages\Messages\obj\Debug\Archivos.baml
 C:\Users\android\Documents\Visual Studio 2015\Projects\Messages\Messages\bin\Debug\RestSharp.dll
 C:\Users\android\Documents\Visual Studio 2015\Projects\Messages\Messages\bin\Debug\RestSharp.xml
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\bin\Debug\Messages.exe.config
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\obj\Debug\Messages.exe
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\obj\Debug\Messages.pdb
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\bin\Debug\Messages.exe
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\bin\Debug\Messages.pdb
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\bin\Debug\EntityFramework.dll
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\bin\Debug\RestSharp.dll
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\bin\Debug\System.Data.SQLite.dll
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\bin\Debug\EntityFramework.xml
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\bin\Debug\RestSharp.xml
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\bin\Debug\System.Data.SQLite.xml
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\obj\Debug\Messages.csprojResolveAssemblyReference.cache
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\obj\Debug\Archivos.g.cs
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\obj\Debug\Chat.g.cs
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\obj\Debug\MainWindow.g.cs
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\obj\Debug\App.g.cs
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\obj\Debug\Messages_MarkupCompile.cache
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\obj\Debug\Messages_MarkupCompile.lref
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\obj\Debug\Archivos.baml
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\obj\Debug\Chat.baml
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\obj\Debug\MainWindow.baml
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\obj\Debug\Messages.g.resources
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\obj\Debug\Messages.Properties.Resources.resources
+C:\Users\android\Documents\Visual Studio 2015\Projects\Moviles\Proyecto\Windows phone\Messages\Messages\obj\Debug\Messages.csproj.GenerateResource.Cache

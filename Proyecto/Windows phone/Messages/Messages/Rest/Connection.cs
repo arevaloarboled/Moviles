@@ -14,9 +14,9 @@ namespace Messages.Rest
 {
     public class Connection
     {
-        public String User = "3";
+        public String User = "2";
         String Url ;
-        String UrlClient = "http://192.168.250.28:8191";
+        String UrlClient = "http://192.168.250.83:8191";
         String UserPath = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
         String DownloadPath;
         public Connection()
@@ -88,7 +88,7 @@ namespace Messages.Rest
         }
         public void Send_File(string fileName, string sender, string receiver)
         {
-            var client = new RestClient();
+            var client = new RestClient(UrlClient);
             var request = new RestRequest("rest/files/" + receiver + "/" + sender, Method.POST);
             request.AddFile("file", fileName);
             var result = client.ExecuteAsync(request, (response) =>

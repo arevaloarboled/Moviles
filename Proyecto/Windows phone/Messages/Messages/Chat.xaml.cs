@@ -198,7 +198,8 @@ namespace Messages
                 texto.Text = "";
                 ScrollViewer Scr = (ScrollViewer)scroll;
                 Scr.ScrollToEnd();
-            }            
+            }
         }
+        
     }
 }
