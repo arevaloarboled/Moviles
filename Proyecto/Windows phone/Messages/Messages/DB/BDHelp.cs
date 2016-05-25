@@ -16,8 +16,6 @@ namespace Messages.DB
             ConnectionVar = new SQLiteConnection("Data Source=Student.db");
             ConnectionVar.Open();
             var Command = ConnectionVar.CreateCommand();
-            //Command.CommandText = "DROP TABLE IF EXISTS messages";
-            //Command.ExecuteNonQuery();
             Command.CommandText = "CREATE TABLE IF NOT EXISTS messages (id_message INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, sender INTEGER NOT NULL, receiver INTEGER NOT NULL, message VARCHAR(50) NOT NULL, date_message VARCHAR(30));";
             Command.ExecuteNonQuery();
         }

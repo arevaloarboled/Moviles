@@ -21,7 +21,6 @@ namespace Messages
     public class Contacts
     {
         public Rest.Connection rest { get; set; }
-        //String result { get; set; }
         public List<Model.Contact> list { get; set; }
         public async void actualizar()
         {

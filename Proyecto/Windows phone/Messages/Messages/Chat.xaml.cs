@@ -90,9 +90,7 @@ namespace Messages
             userFrom = n;
             messagesFrom = new List<Model.templateMessage>();
             actualizarDB();
-            actualizar();
-            //hilo = new Thread(new ThreadStart(up));            
-            //hilo.Start();            
+            actualizar();          
         }
         public async void send(String texto)
         {
@@ -100,7 +98,6 @@ namespace Messages
             var json = new JavaScriptSerializer().Serialize(message);
             rest.Post_Rest("messages", json);
             db.Insert(rest.User, userFrom.userId.ToString(), texto,DateTime.Today.ToString("yyyy-MM-dd")+" " +DateTime.Now.ToString("HH:mm:ss"));
-            //messagesFrom.Add(new Model.templateMessage(  Int32.Parse(rest.User), texto));
             actualizar();
         }
     }
@@ -114,15 +111,10 @@ namespace Messages
         {
             updating = true;
             while (updating)
-            {
-                //await Task.Delay(1000);
+            {                
                 Thread.Sleep(1000);
                 viewModel.actualizarDB();
-                if(viewModel.actualizar())
-                {
-                    /*ScrollViewer Scr = (ScrollViewer)scroll;
-                    Scr.ScrollToEnd();*/
-                }                
+                viewModel.actualizar();                           
             }
         }
         public Chat(Model.Contact i)

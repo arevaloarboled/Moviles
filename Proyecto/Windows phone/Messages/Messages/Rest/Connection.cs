@@ -14,9 +14,9 @@ namespace Messages.Rest
 {
     public class Connection
     {
-        public String User = "2";
+        public String User = "3";
         String Url ;
-        String UrlClient = "http://192.168.250.83:8191";
+        String UrlClient = "http://192.168.250.28:8191";
         String UserPath = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
         String DownloadPath;
         public Connection()
@@ -27,12 +27,7 @@ namespace Messages.Rest
 
         public async Task<String> Get_Rest(string url)
         {
-            url = Url + url;
-            //HttpClient client = new HttpClient();
-            //Task<string> getStringTask = client.GetStringAsync(Url + url);
-            //string urlContents = await getStringTask;
-            //return urlContents;
-            ////////////////////////
+            url = Url + url;          
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             try
             {
@@ -83,7 +78,6 @@ namespace Messages.Rest
             }
             catch (WebException ex)
             {
-                // Log exception and throw as for GET example above
             }
         }
         public void Send_File(string fileName, string sender, string receiver)
