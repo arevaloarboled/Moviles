@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (3.4.0)
+  - AsyncSwift (1.7.2)
+  - JSONHelper (1.7.0)
+  - Restofire (1.1.0):
+    - Restofire/Core (= 1.1.0)
+  - Restofire/Core (1.1.0):
+    - Alamofire (~> 3.0)
+  - SQLite.swift (0.10.1)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - AsyncSwift
+  - JSONHelper
+  - Restofire (from `https://github.com/Restofire/Restofire.git`)
+  - SQLite.swift (~> 0.10)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  Restofire:
+    :git: https://github.com/Restofire/Restofire.git
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  Restofire:
+    :commit: 3dd3726e07d8d808f978ec98778f2c51b1b67ecb
+    :git: https://github.com/Restofire/Restofire.git
+  SwiftyJSON:
+    :commit: 2a5b70f06001316d4fb54501edc70b4084705da0
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  AsyncSwift: 46a78bceb11f0e5bb52747f740d9692ec78d2d7c
+  JSONHelper: b71808273ac60fb9e1878eb115370b0faac14a81
+  Restofire: d5b61a83a943273347bd77175d50d276236ca399
+  SQLite.swift: 6a6e4b034efc317ce4e203b6af2d3024fee2b570
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 5f725f3dd460d4cf637f8046e6b9db06b94b5faf
+
+COCOAPODS: 1.0.1

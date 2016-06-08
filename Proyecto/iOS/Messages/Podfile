@@ -1,0 +1,9 @@
+target 'Messages' do
+  use_frameworks!
+  pod 'Alamofire', '~> 3.4'
+  pod 'JSONHelper'
+  pod 'SQLite.swift', '~> 0.10'
+  pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+  pod 'Restofire', :git => 'https://github.com/Restofire/Restofire.git'
+  pod "AsyncSwift"
+end
