@@ -16,10 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        //let Conn:Connect!=Connect()
         Restofire.defaultConfiguration.baseURL = Connect.Url
         Restofire.defaultConfiguration.headers = ["Content-Type": "application/json"]
-        //Restofire.defaultConfiguration.logging = true
         Restofire.defaultConfiguration.validation.acceptableStatusCodes = [200..<300]
         Restofire.defaultConfiguration.validation.acceptableContentTypes = ["application/json"]
         Restofire.defaultConfiguration.retry.retryErrorCodes = [NSURLErrorTimedOut,NSURLErrorNetworkConnectionLost]

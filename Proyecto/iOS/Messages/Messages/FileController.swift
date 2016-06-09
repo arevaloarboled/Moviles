@@ -38,8 +38,7 @@ class FilesController: UIViewController,UITableViewDataSource {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        //return TaskManager.Count()
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {        
         return Files.count
     }
     func tableView(tableView: UITableView,cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {

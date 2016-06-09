@@ -73,18 +73,12 @@ public class Connect {
         let destination = Alamofire.Request.suggestedDownloadDestination(directory: .DocumentDirectory, domain: .UserDomainMask)
         let urlFile=Connect.Url+"files/"+idFile
         
-        
-        
-        
-        
         Alamofire.download(.GET, urlFile, destination: destination)
             
             .progress { bytesRead, totalBytesRead, totalBytesExpectedToRead in
                 
                 print(totalBytesRead)
-                
-                
-                
+         
                 // This closure is NOT called on the main queue for performance
                 
                 // reasons. To update your ui, dispatch to the main queue.

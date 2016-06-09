@@ -13,37 +13,9 @@ class ChatController: UIViewController,UITableViewDataSource {
     private var Chat: Array<OneMessage> = Array<OneMessage>()
     private let bd:BDhelp!=BDhelp()
     public var contact:Contact?
-    public var updating=false
-    let thread=AsyncGroup()
     @IBOutlet var tableView: UITableView!
     @IBOutlet var Name: UILabel!
     @IBOutlet var text: UITextField!
-    
-    public func dontwork(){
-        updating=false
-    }
-    
-    public func update() {
-        updating=true
-        thread.background{
-            //print("HOLA")
-            let seconds = 4.0
-            let delay = seconds*Double(NSEC_PER_SEC)
-            let dispatchtime = dispatch_time(DISPATCH_TIME_NOW,Int64(delay))
-            while (self.updating){
-                dispatch_after(dispatchtime, dispatch_get_main_queue(), {
-                    self.getMessages(self.contact!.userId)
-                })
-            }
-            //print("CHAO")
-        }
-    }
-    
-    override func viewWillDisappear(animated: Bool) {
-        /*updating=false
-        thread.wait()*/
-        print("chao")
-    }
  
     @IBAction func Actualizo(sender: AnyObject) {
         self.getMessages(self.contact!.userId)
@@ -78,9 +50,7 @@ class ChatController: UIViewController,UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        //update()
         self.getMessages(contact!.userId)
-        //self.scrollToLastRow()
         Name.text=contact?.userName
     }
     
@@ -89,7 +59,6 @@ class ChatController: UIViewController,UITableViewDataSource {
         // Dispose of any resources that can be recreated.
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        //return TaskManager.Count()
         return Chat.count
     }
     func tableView(tableView: UITableView,cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
